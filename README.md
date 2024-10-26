@@ -1,8 +1,9 @@
-# dsi_team_22
-
 ## Business Case
 
 Our team has selected the Pharmaceutical Drug Spending by Countries dataset and will be investigating "Cost Optimization." By identifying high and low spenders, countries can adopt best practices to optimize their pharmaceutical spending. 
+
+https://datahub.io/core/pharmaceutical-drug-spending
+https://github.com/datasets/pharmaceutical-drug-spending
 
 ## Team Work Agreement
 
