@@ -3,10 +3,10 @@ Data Science Institute - Cohort 4 - Team 22 Project
 
 ## Members
 * Adrienne Lloren
-* Anna Karl
-* Danica L
+* Anna Karlova
+* Danica Leung
 * Ferial Vahmiyan
-* Nusrat Fatima Khan
+* Nusrat Khan
 
 ## Business Case
 
