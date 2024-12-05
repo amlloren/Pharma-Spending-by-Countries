@@ -103,7 +103,7 @@ Through preprocessing we are able to identify missing values and outliers. To as
     * The focus on "Cost Optimization" requires reliable data to identify high and low spenders accurately.
     * Data completeness is critical to avoid biased conclusions and ensure accurate identification of best practices.
 
-Based on this heatmap visualization and our aggregation considerations, our group decided to aggregate the dataset to the year range 2005 to 2014 and drop 4 countries (Turkey, Russia, New Zealand and United Kingdom). 
+Based on this heatmap visualization and our aggregation considerations, our group decided to aggregate the dataset to the year range 2005 to 2014 and drop 4 countries (New Zealand, Russia, Turkey, and United Kingdom). 
 
 | Start Date | End Date | # of Years | # Dropped Countries | List of Dropped Countries |
 |:----:|:----:|:---:|:---:|:---|
@@ -124,13 +124,13 @@ The following table shows the correlations between features.
 | PC_GDP | USD_CAP | 0.67 |
 | PC_GDP | TIME | 0.61 |
 
-Since the correlation between the Health Spending per Capita vs Time produced the highest correlation, our team focused our efforts on this correlation when exploring the Top 10 and Bottom 10 health expenditure per country. Additionally, working with the Health Expenditure per Capita standardized our data exploration to already incorporate the other factors such as population.
+Since the correlation between the Health Spending per Capita vs Time produced a high correlation compared to the other variables, our team focused our efforts on this correlation when exploring the Top 10 and Bottom 10 health expenditure per country. Additionally, working with the Health Expenditure per Capita standardized our data exploration to already incorporate the other factors such as population.
 
 ## Identifying Top 10 & Bottom Spenders (2005 - 2014)
 
 ### Top 10 Highest Spending Countries (Average Per Capita)
 
-This table ranks the top 10 highest spending countries by their average spending per capita in USD.
+This table ranks the top 10 highest spending countries by their average spending per capita in USD between the 2005 and 2014 year range.
 
 | Rank | Country Code | Country Name     | Average Spending Per Capita ($ USD) |
 |:----:|:------------:|:----------------:|:-----------------------------------:|
@@ -147,7 +147,7 @@ This table ranks the top 10 highest spending countries by their average spending
 
 ### Bottom 10 Lowest Spending Countries (Per Capita)
 
-This table ranks the countries by their average spending per capita in USD, starting from the lowest.
+This table ranks the countries by their average spending per capita in USD, starting from the lowest between the 2005 and 2014 year range.
 
 | Rank | Country Code | Country Name     | Average Spending Per Capita ($ USD) |
 |:----:|:------------:|:----------------:|:-----------------------------------:|
