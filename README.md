@@ -37,14 +37,12 @@ To start we explored line plot visualizations of the features in the dataset. Be
 
 OVERVIEW:
 
-OVERVIEW:
-
 * [Introduction](#introduction)
 * [Understanding the Raw Data](#understanding-the-raw-data)
 * [Data Cleaning and Missing Values](#data-cleaning-and-missing-values)
 * [Identifying Top 10 and Bottom Spenders](#identifying-top-10-and-bottom-spenders)
-* [Trend Analysis: Top 10 Highest Spending Countries](#trend-analysis-top-10-highest-spending-countries)
-* [Trend Analysis: Bottom 10 Lowest Spending Countries](#trend-analysis-bottom-10-lowest-spending-countries)
+* [Data Analysis: Top 10 Highest Spending Countries](#data-analysis-top-10-highest-spending-countries)
+* [Data Analysis: Bottom 10 Lowest Spending Countries](#data-analysis-bottom-10-lowest-spending-countries)
 * [Conclusion](#conclusion)
 
 ## Introduction
@@ -130,7 +128,7 @@ Since the correlation between the Health Spending per Capita vs Time produced a 
 
 ## Identifying Top 10 and Bottom Spenders (2005 - 2014)
 
-Due to the time restrainst of this team project, we opted to focus on the Top 10 and Bottom 10 countries and ommitted exploring the countries that fell in the mid-level category. By doing so our analysis is not completely comprehensive but it allowed us to explore the polar ends of the analysis.
+Due to the time restrainst of this team project, we opted to focus on the Top 10 and Bottom 10 countries and ommitted exploring the countries that fell in the mid-level category. By doing so our analysis is not completely comprehensive but it allowed us to explore the polar ends of the dataset more thoroughly.
 
 ### Top 10 Highest Spending Countries (Average Per Capita)
 
@@ -170,7 +168,7 @@ This table ranks the countries by their average spending per capita in USD, star
 
 ![bar chart of the bottom 10 lowest spending countries based on the average spend per capita ](images/bottom_barchart.png)
 
-## Trend Analysis: Top 10 Highest Spending Countries
+## Data Analysis: Top 10 Highest Spending Countries
 
 ### Linear Regression
 
@@ -178,7 +176,7 @@ This table ranks the countries by their average spending per capita in USD, star
 
 ### Forecasting
 
-## Trend Analysis: Bottom 10 Lowest Spending Countries
+## Data Analysis: Bottom 10 Lowest Spending Countries
 
 ### Linear Regression
 
@@ -187,3 +185,7 @@ This table ranks the countries by their average spending per capita in USD, star
 ### Forecasting
 
 ## Conclusion
+
+* How does our data exploration and analysis support the business case?
+* How did we incorporate the skills we learned from this certificate program?
+* What we would explore if we had more time?
