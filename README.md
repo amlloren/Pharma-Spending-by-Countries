@@ -41,8 +41,15 @@ OVERVIEW:
 * [Understanding the Raw Data](#understanding-the-raw-data)
 * [Data Cleaning and Missing Values](#data-cleaning-and-missing-values)
 * [Identifying Top 10 and Bottom Spenders](#identifying-top-10-and-bottom-spenders)
-* [Data Analysis: Top 10 Highest Spending Countries](#data-analysis-top-10-highest-spending-countries)
-* [Data Analysis: Bottom 10 Lowest Spending Countries](#data-analysis-bottom-10-lowest-spending-countries)
+* Data Analysis
+    * [Top 10 Highest Spending Countries](#top-10-highest-spending-countries)
+    * [Bottom 10 Lowest Spending Countries](#bottom-10-lowest-spending-countries)
+    * [Linear Regression](#linear-regression)
+    * [K Nearest Neighbors](#k-nearest-neighbors)
+    * [Clustering](#clustering)
+    * [Forecasting](#forecasting)
+* Business Case:
+    * Insights
 * [Conclusion](#conclusion)
 
 ## Introduction
@@ -168,28 +175,21 @@ This table ranks the countries by their average spending per capita in USD, star
 
 ![bar chart of the bottom 10 lowest spending countries based on the average spend per capita ](images/bottom_barchart.png)
 
-## Data Analysis: Top 10 Highest Spending Countries
+## Data Analysis
+
+### Top 10 Highest Spending Countries
+
+### Bottom 10 Lowest Spending Countries
 
 ### Linear Regression
 
-### KNN
-
-### Clustering
-
-### Forecasting
-
-## Data Analysis: Bottom 10 Lowest Spending Countries
-
-### Linear Regression
-
-### KNN
+### K Neearest Neighbors
 
 ### Clustering
 
 ### Forecasting
 
 ## Conclusion
-
 * How does our data exploration and analysis support the business case?
 * How did we incorporate the skills we learned from this certificate program?
 * What we would explore if we had more time?
