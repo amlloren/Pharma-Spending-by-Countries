@@ -172,6 +172,8 @@ This table ranks the countries by their average spending per capita in USD, star
 
 ### Linear Regression
 
+### KNN
+
 ### Clustering
 
 ### Forecasting
@@ -179,6 +181,8 @@ This table ranks the countries by their average spending per capita in USD, star
 ## Data Analysis: Bottom 10 Lowest Spending Countries
 
 ### Linear Regression
+
+### KNN
 
 ### Clustering
 
