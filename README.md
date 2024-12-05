@@ -43,12 +43,12 @@ Our team has selected the Pharmaceutical Drug Spending by Countries dataset and 
 
 ### Understanding the Schema
 
-| column | description |
-|--------|-------------|
-| Percentage of Health Expenditure (PC_HEALTHXP) | This is the percentage of a country's total health expenditure specifically spent on pharmaceuticals, including prescription medicines and over-the-counter products. |
-| Percentage of GDP (PC_GDP) | This is the percentage of the country's Gross Domestic Product (GDP) that is spent on pharmaceuticals. |
-| Health Expenditure per Capita in USD (USD_CAP) | This is the average amount of money spent on pharmaceuticals per person, calculated in US dollars. |
-| Total Spending (TOTAL_SPEND) | This is the total amount of money spent on pharmaceuticals by the country in a given year, typically in millions or billions of dollars. |
+| name | title | description |
+|------|-------|-------------|
+| PC_HEALTHXP | Percentage of Health Expenditure | This is the percentage of a country's total health expenditure specifically spent on pharmaceuticals, including prescription medicines and over-the-counter products. |
+| PC_GDP | Percentage of GDP | This is the percentage of the country's Gross Domestic Product (GDP) that is spent on pharmaceuticals. |
+| USD_CAP | Health Expenditure per Capita in USD | This is the average amount of money spent on pharmaceuticals per person, calculated in US dollars. |
+| TOTAL_SPEND | Total Spending | This is the total amount of money spent on pharmaceuticals by the country in a given year, typically in millions or billions of dollars. |
  
 ### Summarizations found in the dataset.
 
@@ -70,11 +70,11 @@ We created a heatmap to visualize the missing values in our dataset, where blue 
 ![Heatmap of Missing Data](images/missing_values.png)
 
 | Start Date | End Date | # of Years | # Dropped Countries | List of Dropped Countries |
-|:----:|:----:|:---:|:---:|:---:|:---|
+|:----:|:----:|:---:|:---:|:---|
 | 2005 | 2014 | 10 | 4 | Turkey, Russia, New Zealand, United Kingdom |
 
 Based on this visualization our group decided to 
-* We selected the year range 2004 to 2015
+* We selected the year range 2005 to 2014
 * We dropped four countries Turkey, Russia, New Zealand and United Kingdom
 
 ## 
