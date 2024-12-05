@@ -37,13 +37,15 @@ To start we explored line plot visualizations of the features in the dataset. Be
 
 OVERVIEW:
 
-* Introduction
-* Understanding the Raw Data
-* Data Cleaning & Missing Values
-* Identifying Top 10 & Bottom Spenders
-* Trend Analysis - Top 10 Highest Spending Countries
-* Trend Analysis - Bottom 10 Lowest Spending Countries
-* Conclusion
+OVERVIEW:
+
+* [Introduction](#introduction)
+* [Understanding the Raw Data](#understanding-the-raw-data)
+* [Data Cleaning and Missing Values](#data-cleaning-and-missing-values)
+* [Identifying Top 10 and Bottom Spenders](#identifying-top-10-and-bottom-spenders)
+* [Trend Analysis: Top 10 Highest Spending Countries](#trend-analysis-top-10-highest-spending-countries)
+* [Trend Analysis: Bottom 10 Lowest Spending Countries](#trend-analysis-bottom-10-lowest-spending-countries)
+* [Conclusion](#conclusion)
 
 ## Introduction
 
@@ -83,7 +85,7 @@ The following table presents key summarizations derived from the Pharmaceutical 
 | What is the total number of possible observations? | There are 1,692 possible observations |
 | How many values are missing? | There are 656 missing values |
 
-## Data Cleaning & Handling Missing Values
+## Data Cleaning and Handling Missing Values
 
 Through preprocessing we are able to identify missing values and outliers. To assist in visualizing the missing values in our dataset we created a heatmap, where blue indicated available data and yellow indicated missing data.
 
@@ -126,13 +128,15 @@ The following table shows the correlations between features.
 
 Since the correlation between the Health Spending per Capita vs Time produced a high correlation compared to the other variables, our team focused our efforts on this correlation when exploring the Top 10 and Bottom 10 health expenditure per country. Additionally, working with the Health Expenditure per Capita standardized our data exploration to already incorporate the other factors such as population.
 
-## Identifying Top 10 & Bottom Spenders (2005 - 2014)
+## Identifying Top 10 and Bottom Spenders (2005 - 2014)
+
+Due to the time restrainst of this team project, we opted to focus on the Top 10 and Bottom 10 countries and ommitted exploring the countries that fell in the mid-level category. By doing so our analysis is not completely comprehensive but it allowed us to explore the polar ends of the analysis.
 
 ### Top 10 Highest Spending Countries (Average Per Capita)
 
 This table ranks the top 10 highest spending countries by their average spending per capita in USD between the 2005 and 2014 year range.
 
-| Rank | Country Code | Country Name     | Average Spending Per Capita ($ USD) |
+| Rank | Country Code | Country Name     | Avg Spend Per Capita ($ USD) |
 |:----:|:------------:|:----------------:|:-----------------------------------:|
 | 1    | USA          | United States    | 937.895500                          |
 | 2    | CAN          | Canada           | 720.361100                          |
@@ -145,11 +149,13 @@ This table ranks the top 10 highest spending countries by their average spending
 | 9    | BEL          | Belgium          | 595.256000                          |
 | 10   | LUX          | Luxembourg       | 573.441300                          |
 
-### Bottom 10 Lowest Spending Countries (Per Capita)
+![bar chart of the top 10 highest spending countries based on the average spend per capita ](images/top_barchart.png)
+
+### Bottom 10 Lowest Spending Countries (Average Per Capita)
 
 This table ranks the countries by their average spending per capita in USD, starting from the lowest between the 2005 and 2014 year range.
 
-| Rank | Country Code | Country Name     | Average Spending Per Capita ($ USD) |
+| Rank | Country Code | Country Name     | Avg Spend Per Capita ($ USD) |
 |:----:|:------------:|:----------------:|:-----------------------------------:|
 | 1    | LVA          | Latvia           | 269.196400                          |
 | 2    | EST          | Estonia          | 269.575900                          |
@@ -162,7 +168,9 @@ This table ranks the countries by their average spending per capita in USD, star
 | 9    | NOR          | Norway           | 412.787900                          |
 | 10   | NLD          | Netherlands      | 428.909700                          |
 
-## Trend Analysis - Top 10 Highest Spending Countries
+![bar chart of the bottom 10 lowest spending countries based on the average spend per capita ](images/bottom_barchart.png)
+
+## Trend Analysis: Top 10 Highest Spending Countries
 
 ### Linear Regression
 
@@ -170,7 +178,7 @@ This table ranks the countries by their average spending per capita in USD, star
 
 ### Forecasting
 
-## Trend Analysis - Bottom 10 Lowest Spending Countries
+## Trend Analysis: Bottom 10 Lowest Spending Countries
 
 ### Linear Regression
 
