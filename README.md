@@ -41,14 +41,16 @@ OVERVIEW:
 * [Understanding the Raw Data](#understanding-the-raw-data)
 * [Data Cleaning and Missing Values](#data-cleaning-and-missing-values)
 * [Identifying Top 10 and Bottom Spenders](#identifying-top-10-and-bottom-spenders)
-* Data Analysis
-    * [Top 10 Highest Spending Countries](#top-10-highest-spending-countries)
-    * [Bottom 10 Lowest Spending Countries](#bottom-10-lowest-spending-countries)
+* [Data Analysis on Python](data-analysis-on-python)
     * [Linear Regression](#linear-regression)
     * [K Nearest Neighbors](#k-nearest-neighbors)
     * [Clustering](#clustering)
     * [Forecasting](#forecasting)
-* Business Case:
+* [Data Visualization on Tableau](data-visualization-on-tableau)
+    * [Global Health Spend](global-health-spend)
+    * [Top 10 Countries Dashboard](top-10-countries-dashboard)
+    * [Bottom 10 Countries Dashboard](bottom-10-countries-dashboard)
+* [Business Case](business-case)
     * Insights
 * [Conclusion](#conclusion)
 
@@ -175,19 +177,28 @@ This table ranks the countries by their average spending per capita in USD, star
 
 ![bar chart of the bottom 10 lowest spending countries based on the average spend per capita ](images/bottom_barchart.png)
 
-## Data Analysis
-
-### Top 10 Highest Spending Countries
-
-### Bottom 10 Lowest Spending Countries
+## Data Analysis on Python
 
 ### Linear Regression
 
-### K Neearest Neighbors
+### K Nearest Neighbors
 
 ### Clustering
 
 ### Forecasting
+
+## Data Visualization on Tableau
+
+### Global Health Spend
+* [Tableau Public Link](https://public.tableau.com/app/profile/anna.karlova/viz/Pharmaspendingbycountries1970-2015/Dashboard1)
+
+### Top 10 Countries Dashboard
+* [Tableau Public Link](https://public.tableau.com/app/profile/adrienne.lloren/viz/PharmaceuticalDrugSpendingbyCountries_17333346970600/TOP10)
+
+### Bottom 10 Countries Dashboard
+* [Tableau Public Link](https://public.tableau.com/app/profile/adrienne.lloren/viz/PharmaceuticalDrugSpendingbyCountries_17333346970600/BOTTOM10)
+
+## Business Case
 
 ## Conclusion
 * How does our data exploration and analysis support the business case?
