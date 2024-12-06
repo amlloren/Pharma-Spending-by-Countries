@@ -10,7 +10,7 @@ Data Science Institute - Cohort 4 - Team 22 Project
 
 ## Business Case
 
-Our team has selected the Pharmaceutical Drug Spending by Countries dataset. Our goal is to identify the Top 10 and Bottom 10 spending countries (ranked by the average of Health Spending per Capita) to gain insights on these two country groupings. To start, we explored the general characteristics of the raw data and came up with a strategy to handle missing values. We implemented an aggregation to the year range 2005 and 2014 to clean the data from missing values and outliers. Next, we explored the dataset using Linear Regression, Clustering, Forecasting and Data Visualization using python. Optionally, we also explored data visualization using Tableau Public. 
+Our team has selected the Pharmaceutical Drug Spending by Countries dataset. Our goal is to identify the Top 10 and Bottom 10 spending countries (ranked by the average of Health Spending per Capita) to gain insights on these two country groupings. To start, we explored the general characteristics of the raw data and came up with a strategy to handle missing values. We implemented an aggregation to the year range 2005 and 2014 to clean the data from missing values and outliers. Next, we grouped the Top 10 and Bottom 10 countries and explored them using Linear Regression, Clustering, Forecasting and Static and Dynamic Data Visualization using python. Optionally, we also explored data visualization using Tableau Public. 
 
 ![screenshot of Pharmaceutical Drug Spending dashboard](images/pharma_spending_dashboard.png)
 
@@ -32,9 +32,6 @@ We sourced our raw dataset by downloading them from the links below:
     * [Clustering](#clustering)
     * [Forecasting](#forecasting)
 * [Data Visualization on Tableau](data-visualization-on-tableau)
-    * [Global Health Spend](global-health-spend)
-    * [Top 10 Countries Dashboard](top-10-countries-dashboard)
-    * [Bottom 10 Countries Dashboard](bottom-10-countries-dashboard)
 * [Business Case](business-case)
 * [Conclusion](#conclusion)
 
@@ -187,12 +184,10 @@ This table ranks the countries by their average spending per capita in USD, star
 
 **The supporting python code can be viewed in the [4_top_bottom.ipynb](4_top_bottom.ipynb) file in our repo.**
 
+# Data Analysis on Python
 
-
-## Data Analysis on Python
-
-### Linear Regression
-# Multiple Linear Regression
+## Linear Regression
+### Multiple Linear Regression
 
 We chose to regress TOTAL_SPEND on variables USD_CAP, PC_HEALTHXP, and PC_GDP , to explore how these factors influence total spending. To understand the relationship between total spending and these independent variables, which we hypothesize might have an impact on the total amount spent by each country. Due to missing values only 2004-2015 was used and RUS,ISR,TUR,NZL and GBR were dropped. 
 However, it's important we are using a timeseries data set and Linear Regression is not the best model for a timeseries analysis. This model is likely to suffer from autocorrelation, stationarity, and overfitting. Models such as ARMA or ARIMA would have been better suited, but we did not cover those in the course. If we had more time we could have explored other models. 
@@ -214,30 +209,26 @@ To keep things simple, we only plot the forecast for top 10 countries using a 95
 
 All of the forecasted points fall within the 95% confidence interval, indicating that they are statistically significant at the 95% confidence level. Although our model suffers from some limitations, the outcome is still significant.
 
-
-
- 
-* Add summarizing paragraph
-* Add Forecast 2016 using linear regression (First two blocks of code)
-* Add 2016 to 2018 segment
-* Add Top 10 Countries Forecast
-
 NOTE: Isreal was dropped because it was missing values for 2014, 2015 and 2016.
+
+**The supporting python code can be viewed in the [5_linear_regression.ipynb](5_linear_regression.ipynb) file in our repo.**
+
+#### Dynamic Plots
 
 We also developed an interactive method to explore the linear regression for each country which can be filtered by Location and Features. Below is a screenshot:
 
 ![screenshot of dynamic plot for lineear regression](images/Regression_F.png)
 
-**The supporting python code can be viewed in the [5_linear_regression.ipynb](5_linear_regression.ipynb) file in our repo.**
+**The supporting python code can be viewed in the [7_dynamic_plots.ipynb](7_dynamic_plots.ipynb) file in our repo.**
 
-### Clustering
+## Clustering
 * Add summarizing paragraph
 * Add K-Means plot
 * Add Average Features by Cluster
 
 **The supporting python code can be viewed in the [6_clustering.ipynb](6_clustering.ipynb) file in our repo.**
 
-### Dynamic Plots
+## Dynamic Plots
 
 Here are a few reasons why dynamic plotting is beneficial:
 
@@ -253,11 +244,11 @@ Here are a few reasons why dynamic plotting is beneficial:
 
 - Scalable for Large Datasets: With tools like Plotly and Dash, dynamic visualizations can handle large datasets efficiently, providing responsive and smooth interaction capabilities.
 
-  Dynamic plots turn static visuals into tools for exploration, making data analysis more interactive, flexible, and engaging.
+Dynamic plots turn static visuals into tools for exploration, making data analysis more interactive, flexible, and engaging.
 
 **The supporting python code can be viewed in the [7_dynamic_plots.ipynb](7_dynamic_plots.ipynb) file in our repo.**
 
-### Forecasting
+## Forecasting
 
 The method of forecasting in the provided code uses Facebook Prophet, a powerful open-source forecasting tool designed for time series data. It is particularly effective when your data exhibits patterns like seasonality, trends, or irregular intervals.
 
@@ -281,9 +272,7 @@ NOTE: This is a dynamic plot and requires being opened.
 * Bottom 10 Countries Dashboard ([Tableau Public Link](https://public.tableau.com/app/profile/adrienne.lloren/viz/PharmaceuticalDrugSpendingbyCountries_17333346970600/BOTTOM10))
 
 ## Conclusion
-* How does our data exploration and analysis support the business case?
-* How did we incorporate the skills we learned from this certificate program?
-* What we would explore if we had more time?
+The analysis revealed significant disparities between the top 10 and bottom 10 countries in pharmaceutical spending per capita. Leveraging insights from correlations and trends, the study highlighted the importance of accurate and complete data for effective decision-making. While the project explored key patterns and developed robust visual and statistical models, time constraints limited the scope to a focused subset of the dataset. Future efforts could include deeper analysis into mid-tier countries, adoption of advanced forecasting models, and exploration of causative factors beyond expenditures, such as population health outcomes. This project underscores the potential of data science in driving informed policy decisions and optimizing healthcare expenditures worldwide.
 
 ## Team Videos:
 * Adrienne Lloren
