@@ -239,9 +239,26 @@ We also developed an interactive method to explore the linear regression for eac
 **The supporting python code can be viewed in the 6_clustering.ipynb file in our repo.**
 
 ### Dynamic Plots
-* Add summarizing paragraph
 
-The method of prediction in the provided code uses Facebook Prophet, a powerful open-source forecasting tool designed for time series data. It is particularly effective when your data exhibits patterns like seasonality, trends, or irregular intervals.
+* Here are a few reasons why dynamic plotting is beneficial:
+
+- Interactivity Enhances Insights: Dynamic plots allow users to zoom, pan, and hover over data points, making it easier to explore and uncover trends, patterns, or outliers that static plots might obscure.
+
+- Customizable Views: Users can filter data, adjust parameters, or select specific subsets, enabling a more tailored analysis without regenerating the entire plot.
+
+- Better Storytelling: Dynamic visualizations can adapt to different narratives or audiences, making them ideal for interactive dashboards or presentations where stakeholders can explore the data themselves.
+
+- Real-Time Data Exploration: Dynamic plots are perfect for situations where datasets are updated in real-time or where rapid iterations of visualizations are needed to analyze evolving trends.
+
+- Improved User Engagement: By involving the viewer in the analysis process, dynamic plots encourage engagement and deeper understanding compared to passive consumption of static visuals.
+
+- Scalable for Large Datasets: With tools like Plotly and Dash, dynamic visualizations can handle large datasets efficiently, providing responsive and smooth interaction capabilities.
+
+  Dynamic plots turn static visuals into tools for exploration, making data analysis more interactive, flexible, and engaging.
+
+### Forecasting
+
+The method of forecasting in the provided code uses Facebook Prophet, a powerful open-source forecasting tool designed for time series data. It is particularly effective when your data exhibits patterns like seasonality, trends, or irregular intervals.
 
 #### Why Prophet for This Task?
 
