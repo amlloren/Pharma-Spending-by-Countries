@@ -48,7 +48,7 @@ This project uses the following Python libraries
 * seaborn : For enhancing the style of matplotlib plots.
 * sklearn : For linear regression analysis.
 
-## Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis
 
 INSERT IMAGE OF ANNA'S EDA dynamic dashboard.
 
@@ -112,11 +112,11 @@ Through preprocessing we are able to identify missing values and outliers. To as
     * The focus on this project requires reliable data to identify high and low spenders accurately.
     * Data completeness is critical to avoid biased conclusions and ensure accurate identification of best practices.
 
-Based on this heatmap visualization and our aggregation considerations, our group decided to aggregate the dataset to the year range 2005 to 2014 and drop 5 countries (Israel, New Zealand, Russia, Turkey, and United Kingdom). 
+Based on this heatmap visualization and our aggregation considerations, our group decided to aggregate the dataset to the year range 2005 to 2014 and drop 4 countries (New Zealand, Russia, Turkey, and United Kingdom). 
 
 | Start Date | End Date | # of Years | # Dropped Countries | List of Dropped Countries |
 |:----:|:----:|:---:|:---:|:---|
-| 2005 | 2014 | 10 | 5 | Israel, New Zealand, Russia, Turkey, United Kingdom |
+| 2005 | 2014 | 10 | 4 | New Zealand, Russia, Turkey, United Kingdom |
 
 ### Correlation between Features
 
@@ -183,6 +183,8 @@ This table ranks the countries by their average spending per capita in USD, star
 ## Data Analysis on Python
 
 ### Linear Regression
+NOTE: Isreal was dropped because it was missing values for 2014, 2015 and 2016.
+
 
 **The supporting python code can be viewed in the 5_linear_regression.ipynb file in our repo.**
 
@@ -198,14 +200,9 @@ This table ranks the countries by their average spending per capita in USD, star
 
 ## Data Visualization on Tableau (Optional)
 
-Global Health Spend
-* [Tableau Public Link](https://public.tableau.com/app/profile/anna.karlova/viz/Pharmaspendingbycountries1970-2015/Dashboard1)
-
-Top 10 Countries Dashboard
-* [Tableau Public Link](https://public.tableau.com/app/profile/adrienne.lloren/viz/PharmaceuticalDrugSpendingbyCountries_17333346970600/TOP10)
-
-Bottom 10 Countries Dashboard
-* [Tableau Public Link](https://public.tableau.com/app/profile/adrienne.lloren/viz/PharmaceuticalDrugSpendingbyCountries_17333346970600/BOTTOM10)
+* Global Health Spend ([Tableau Public Link](https://public.tableau.com/app/profile/anna.karlova/viz/Pharmaspendingbycountries1970-2015/Dashboard1))
+* Top 10 Countries Dashboard ([Tableau Public Link](https://public.tableau.com/app/profile/adrienne.lloren/viz/PharmaceuticalDrugSpendingbyCountries_17333346970600/TOP10))
+* Bottom 10 Countries Dashboard ([Tableau Public Link](https://public.tableau.com/app/profile/adrienne.lloren/viz/PharmaceuticalDrugSpendingbyCountries_17333346970600/BOTTOM10))
 
 ## Conclusion
 * How does our data exploration and analysis support the business case?
