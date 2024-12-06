@@ -12,16 +12,17 @@ Data Science Institute - Cohort 4 - Team 22 Project
 
 Our team has selected the Pharmaceutical Drug Spending by Countries dataset. Our goal is to identify the Top 10 and Bottom 10 spending countries (ranked by the average of Health Spending per Capita) to gain insights on these two country groupings. To start, we explored the general characteristics of the raw data and came up with a strategy to handle missing values. We implemented an aggregation to the year range 2005 and 2014 to clean the data from missing values and outliers. Next, we explored the dataset using Linear Regression, Clustering, Forecasting and Data Visualization using python. Optionally, we also explored data visualization using Tableau Public. 
 
+![screenshot of Pharmaceutical Drug Spending dashboard](images/pharma_spending_dashboard.png)
+Screenshot of Pharmaceutical Drug Spending dashboard ([Tableau Public Link](https://public.tableau.com/app/profile/anna.karlova/viz/Pharmaspendingbycountries1970-2015/Dashboard1))
+
 We sourced our raw dataset by downloading them from the links below:
 * https://datahub.io/core/pharmaceutical-drug-spending
 * https://github.com/datasets/pharmaceutical-drug-spending
 
-![screenshot of Pharmaceutical Drug Spending dashboard](images/pharma_spending_dashboard.png)
-Screenshot of Pharmaceutical Drug Spending dashboard ([Tableau Public Link](https://public.tableau.com/app/profile/anna.karlova/viz/Pharmaspendingbycountries1970-2015/Dashboard1))
-
 ## Project Overview
 
-* [Introduction](#introduction)
+* [Requirements](#requirements)
+* [Exploratory Data Analysis](exploratory-data-analysis)
 * [Understanding the Raw Data](#understanding-the-raw-data)
 * [Data Cleaning and Missing Values](#data-cleaning-and-missing-values)
 * [Identifying Top 10 and Bottom 10 Spenders](#identifying-top-10-and-bottom-10-spenders)
@@ -47,6 +48,11 @@ This project uses the following Python libraries
 * seaborn : For enhancing the style of matplotlib plots.
 * sklearn : For linear regression analysis.
 
+## Exploratory Data Analysis (EDA)
+
+INSERT IMAGE OF ANNA'S EDA dynamic dashboard.
+
+**To explore the dynamic features download the 1_EDA.ipynb file in our repo.**
 
 ## Understanding the Raw Data
 
@@ -83,6 +89,8 @@ The following table presents key summarizations derived from the Pharmaceutical 
 | What is the total number of observations in the dataset? | There are 1036 observations in this data set |
 | What is the total number of possible observations? | There are 1,692 possible observations |
 | How many values are missing? | There are 656 missing values |
+
+**The supporting python code can be viewed in the 2_summarizations.ipynb file in our repo.**
 
 ## Data Cleaning and Handling Missing Values
 
@@ -127,6 +135,8 @@ The following table shows the correlations between features.
 
 Since the correlation between the Health Spending per Capita vs Time produced a high correlation compared to the other variables, our team focused our efforts on this correlation when exploring the Top 10 and Bottom 10 health expenditure per country. Additionally, working with the Health Expenditure per Capita standardized our data exploration to already incorporate the other factors such as population.
 
+**The supporting python code can be viewed in the 3_data_cleaning.ipynb file in our repo.**
+
 ## Identifying Top 10 and Bottom 10 Spenders
 The ranking is based off the average health spend per capita for the year range 2005 to 2014. Due to the time restrainst of this team project, we opted to focus on the Top 10 and Bottom 10 countries and ommitted exploring the countries that fell in the mid-level category. By doing so our analysis is not completely comprehensive but it allowed us to explore the polar ends of the dataset more thoroughly.
 
@@ -168,15 +178,23 @@ This table ranks the countries by their average spending per capita in USD, star
 
 ![bar chart of the bottom 10 lowest spending countries based on the average spend per capita ](images/bottom_barchart.png)
 
+**The supporting python code can be viewed in the 4_top_bottom.ipynb file in our repo.**
+
 ## Data Analysis on Python
 
 ### Linear Regression
 
+**The supporting python code can be viewed in the 5_linear_regression.ipynb file in our repo.**
+
 ### Clustering
+
+**The supporting python code can be viewed in the 6_clustering.ipynb file in our repo.**
 
 ### Forecasting
 
 * Use Ferial's Dynamic plotly
+
+**The supporting python code can be viewed in the 7_forecasting.ipynb file in our repo.**
 
 ## Data Visualization on Tableau (Optional)
 
