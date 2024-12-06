@@ -222,9 +222,39 @@ We also developed an interactive method to explore the linear regression for eac
 **The supporting python code can be viewed in the [7_dynamic_plots.ipynb](7_dynamic_plots.ipynb) file in our repo.**
 
 ## Clustering
-* Add summarizing paragraph
-* Add K-Means plot
-* Add Average Features by Cluster
+
+The clustering analysis grouped the 20 selected countries (top 10 and bottom 10 spenders) into three distinct clusters:
+
+| Cluster # | Category | Countries |
+|:---------:|:--------:|:----------|
+| 0 | Top 10 | LUX, CAN, CHE, GRC, JPN, IRL, DEU, FRA, BEL |
+| 1 | Bottom 10 | CZE, LTU, DNK, POL, NLD, MEX, EST, LVA, NOR, ISR
+| 2 | Outlier | USA |
+
+* Cluster 0: Represents the top 10 spending countries (excluding the USA), confirming their high average pharmaceutical expenditure per capita.
+* Cluster 1: Corresponds to the bottom 10 spending countries, highlighting their lower average pharmaceutical expenditure per capita.
+* Cluster 2: Contains only the United States, an outlier due to its significantly higher spending per capita and total expenditure compared to other countries.
+
+### Key Observations
+* Outlier Identification: The USA, being in its own cluster, underscores its unique position as an extreme high-spender. This finding aligns with its distinct spending patterns observed during earlier analyses.
+* Spending Patterns:
+    * Cluster 0 countries (top spenders) exhibit high per-capita pharmaceutical expenditure but lower percentages of total healthcare spending allocated to pharmaceuticals.
+    * Conversely, Cluster 1 countries (bottom spenders) show lower per-capita expenditures but allocate a higher proportion of their healthcare budgets to pharmaceuticals.
+
+### Visual Insights
+
+Cluster Graph: The clustering plot visually demonstrates the separation between the three clusters, with the USA distinctly positioned as an outlier.
+
+![Clustering plot for the top 10 and bottom 10 countries](images/kmeans_clustering.png)
+
+Average Features by Cluster: A bar plot comparing cluster-level averages reveals that countries in Cluster 0 and Cluster 2 spend substantially more per capita, while Cluster 1 countries allocate a larger share of their healthcare budgets to pharmaceuticals.
+
+![Plot of the average features by clusters](images/avg_clustering.png)
+
+Implications
+This clustering analysis highlights important nuances in spending behavior among countries. The USA’s outlier status suggests that factors beyond healthcare expenditure patterns, such as policy and market dynamics, drive its exceptionally high spending. In contrast, Cluster 0 and Cluster 1 differences indicate varied priorities, with some countries achieving higher efficiency by spending less while allocating a greater percentage to pharmaceuticals.
+
+Future analyses could explore mid-level spenders and examine additional variables like population health outcomes to uncover further insights.
 
 **The supporting python code can be viewed in the [6_clustering.ipynb](6_clustering.ipynb) file in our repo.**
 
