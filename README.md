@@ -272,7 +272,7 @@ The method of forecasting in the provided code uses Facebook Prophet, a powerful
 NOTE: This is a dynamic plot and requires being opened.
 
 
-**The supporting python code can be viewed in the 7_forecasting.ipynb file in our repo.**
+**The supporting python code can be viewed in the [7_forecasting.ipynb](7_forecasting.ipynb) file in our repo.**
 
 ## Data Visualization on Tableau (Optional)
 
