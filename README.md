@@ -36,7 +36,6 @@ We sourced our raw dataset by downloading them from the links below:
     * [Top 10 Countries Dashboard](top-10-countries-dashboard)
     * [Bottom 10 Countries Dashboard](bottom-10-countries-dashboard)
 * [Business Case](business-case)
-    * Insights
 * [Conclusion](#conclusion)
 
 ### Requirements
@@ -96,7 +95,7 @@ The following table presents key summarizations derived from the Pharmaceutical 
 | What is the total number of possible observations? | There are 1,692 possible observations |
 | How many values are missing? | There are 656 missing values |
 
-**The supporting python code can be viewed in the 2_summarizations.ipynb file in our repo.**
+**The supporting python code can be viewed in the [2_summarizations.ipynb](2_summarizations.ipynb) file in our repo.**
 
 ## Data Cleaning and Handling Missing Values
 
@@ -143,7 +142,7 @@ The following table shows the correlations between features.
 
 Since the correlation between the Health Spending per Capita vs Time produced a high correlation compared to the other variables, our team focused our efforts on this correlation when exploring the Top 10 and Bottom 10 health expenditure per country. Additionally, working with the Health Expenditure per Capita standardized our data exploration to already incorporate the other factors such as population.
 
-**The supporting python code can be viewed in the 3_data_cleaning.ipynb file in our repo.**
+**The supporting python code can be viewed in the [3_data_cleaning.ipynb](3_data_cleaning.ipynb) file in our repo.**
 
 ## Identifying Top 10 and Bottom 10 Spenders
 The ranking is based off the average health spend per capita for the year range 2005 to 2014. Due to the time restrainst of this team project, we opted to focus on the Top 10 and Bottom 10 countries and ommitted exploring the countries that fell in the mid-level category. By doing so our analysis is not completely comprehensive but it allowed us to explore the polar ends of the dataset more thoroughly.
@@ -186,7 +185,7 @@ This table ranks the countries by their average spending per capita in USD, star
 
 ![bar chart of the bottom 10 lowest spending countries based on the average spend per capita ](images/bottom_barchart.png)
 
-**The supporting python code can be viewed in the 4_top_bottom.ipynb file in our repo.**
+**The supporting python code can be viewed in the [4_top_bottom.ipynb](4_top_bottom.ipynb) file in our repo.**
 
 
 
