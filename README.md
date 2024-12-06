@@ -289,9 +289,7 @@ The method of forecasting in the provided code uses Facebook Prophet, a powerful
 
 ![Forecast for DNK (USD_CAP)](images/Forecast_F.png)
 
-NOTE: This is a dynamic plot and requires being opened.
-
-The supporting python code can be viewed in the [7_dynamic_plots.ipynb](7_dynamic_plots.ipynb) file in our repo.
+NOTE: This is a dynamic plot and requires being opened. To explore the dynamic features download the [7_dynamic_plots.ipynb](7_dynamic_plots.ipynb) file in our repo.
 
 ## Data Visualization on Tableau
 
