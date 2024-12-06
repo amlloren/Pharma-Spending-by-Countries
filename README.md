@@ -240,7 +240,7 @@ We also developed an interactive method to explore the linear regression for eac
 
 ### Dynamic Plots
 
-* Here are a few reasons why dynamic plotting is beneficial:
+Here are a few reasons why dynamic plotting is beneficial:
 
 - Interactivity Enhances Insights: Dynamic plots allow users to zoom, pan, and hover over data points, making it easier to explore and uncover trends, patterns, or outliers that static plots might obscure.
 
