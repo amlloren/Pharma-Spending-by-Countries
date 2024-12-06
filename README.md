@@ -31,7 +31,6 @@ To start we explored line plot visualizations of the features in the dataset. Be
 
 ![line plot of the percentage of GDP per country over the year range 1970 to 2016 ](images/pc_gdp_v_time.png)
 ![line plot of the percentage of health expenditure per country over the year range 1970 to 2016 ](images/pc_healthxp_v_time.png)
-![line plot of the total spend (in millions) per country over the year range 1970 to 2016 ](images/total_spend_v_time.png)
 
 # PART 2:
 
@@ -40,7 +39,7 @@ OVERVIEW:
 * [Introduction](#introduction)
 * [Understanding the Raw Data](#understanding-the-raw-data)
 * [Data Cleaning and Missing Values](#data-cleaning-and-missing-values)
-* [Identifying Top 10 and Bottom Spenders](#identifying-top-10-and-bottom-spenders)
+* [Identifying Top 10 and Bottom 10 Spenders](#identifying-top-10-and-bottom-10-spenders)
 * [Data Analysis on Python](data-analysis-on-python)
     * [Linear Regression](#linear-regression)
     * [K Nearest Neighbors](#k-nearest-neighbors)
@@ -135,9 +134,8 @@ The following table shows the correlations between features.
 
 Since the correlation between the Health Spending per Capita vs Time produced a high correlation compared to the other variables, our team focused our efforts on this correlation when exploring the Top 10 and Bottom 10 health expenditure per country. Additionally, working with the Health Expenditure per Capita standardized our data exploration to already incorporate the other factors such as population.
 
-## Identifying Top 10 and Bottom Spenders (2005 - 2014)
-
-Due to the time restrainst of this team project, we opted to focus on the Top 10 and Bottom 10 countries and ommitted exploring the countries that fell in the mid-level category. By doing so our analysis is not completely comprehensive but it allowed us to explore the polar ends of the dataset more thoroughly.
+## Identifying Top 10 and Bottom 10 Spenders
+The ranking is based off the average health spend per capita for the year range 2005 to 2014. Due to the time restrainst of this team project, we opted to focus on the Top 10 and Bottom 10 countries and ommitted exploring the countries that fell in the mid-level category. By doing so our analysis is not completely comprehensive but it allowed us to explore the polar ends of the dataset more thoroughly.
 
 ### Top 10 Highest Spending Countries (Average Per Capita)
 
@@ -186,6 +184,8 @@ This table ranks the countries by their average spending per capita in USD, star
 ### Clustering
 
 ### Forecasting
+
+* Use Ferial's Dynamic plotly
 
 ## Data Visualization on Tableau
 
