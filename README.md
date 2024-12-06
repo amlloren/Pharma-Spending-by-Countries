@@ -193,6 +193,31 @@ This table ranks the countries by their average spending per capita in USD, star
 ## Data Analysis on Python
 
 ### Linear Regression
+# Multiple Linear Regression
+
+We chose to regress TOTAL_SPEND on variables USD_CAP, PC_HEALTHXP, and PC_GDP , to explore how these factors influence total spending. To understand the relationship between total spending and these independent variables, which we hypothesize might have an impact on the total amount spent by each country. Due to missing values only 2004-2015 was used and RUS,ISR,TUR,NZL and GBR were dropped. 
+However, it's important we are using a timeseries data set and Linear Regression is not the best model for a timeseries analysis. This model is likely to suffer from autocorrelation, stationarity, and overfitting. Models such as ARMA or ARIMA would have been better suited, but we did not cover those in the course. If we had more time we could have explored other models. 
+
+Since our dataset contains 2016 data for a few countries, we choose to forecast 2016 first and then compare the error to see the difference between the forecast and the actual. 
+
+![image](https://github.com/user-attachments/assets/96228635-f7ab-4a4d-9d8f-49c240b9538f)
+![image](https://github.com/user-attachments/assets/14d73cd0-503a-43a2-94d0-3d71fe52cc8e)
+
+The errors are low enough so we can proceed to forecast 2016-2018.
+![image](https://github.com/user-attachments/assets/7b462569-364d-40da-896a-c5c1259691ec)
+![image](https://github.com/user-attachments/assets/d20d8060-f188-4a07-9259-eb2a59e8e23c)
+
+The R-square being 1 suggests overfitting. The Durbin-Watson statistic also suggests autocorrelation. We predicted both of these problems would happen earlier due to using Linear Regression.However, the p-value of the F-statistic is really small which means the model is still significant. The coefficients for PC_HEALTHXP and USD_CAP are also significant, which means these have a strong relatoinship with our target variable.
+
+To keep things simple, we only plot the forecast for top 10 countries using a 95% confidence interval.
+
+![image](https://github.com/user-attachments/assets/5d1d5cef-d55c-4d84-a088-f0c60fa27356)
+
+All of the forecasted points fall within the 95% confidence interval, indicating that they are statistically significant at the 95% confidence level. Although our model suffers from some limitations, the outcome is still significant.
+
+
+
+ 
 * Add summarizing paragraph
 * Add Forecast 2016 using linear regression (First two blocks of code)
 * Add 2016 to 2018 segment
