@@ -90,7 +90,7 @@ The following table presents key summarizations derived from the Pharmaceutical 
 | What is the total number of possible observations? | There are 1,692 possible observations |
 | How many values are missing? | There are 656 missing values |
 
-**The supporting python code can be viewed in the [2_summarizations.ipynb](2_summarizations.ipynb) file in our repo.**
+The supporting python code can be viewed in the [2_summarizations.ipynb](2_summarizations.ipynb) file in our repo.
 
 ## Data Cleaning and Handling Missing Values
 
@@ -137,7 +137,7 @@ The following table shows the correlations between features.
 
 Since the correlation between the Health Spending per Capita vs Time produced a high correlation compared to the other variables, our team focused our efforts on this correlation when exploring the Top 10 and Bottom 10 health expenditure per country. Additionally, working with the Health Expenditure per Capita standardized our data exploration to already incorporate the other factors such as population.
 
-**The supporting python code can be viewed in the [3_data_cleaning.ipynb](3_data_cleaning.ipynb) file in our repo.**
+The supporting python code can be viewed in the [3_data_cleaning.ipynb](3_data_cleaning.ipynb) file in our repo.
 
 ## Identifying Top 10 and Bottom 10 Spenders
 The ranking is based off the average health spend per capita for the year range 2005 to 2014. Due to the time restrainst of this team project, we opted to focus on the Top 10 and Bottom 10 countries and ommitted exploring the countries that fell in the mid-level category. By doing so our analysis is not completely comprehensive but it allowed us to explore the polar ends of the dataset more thoroughly.
@@ -180,7 +180,7 @@ This table ranks the countries by their average spending per capita in USD, star
 
 ![bar chart of the bottom 10 lowest spending countries based on the average spend per capita ](images/bottom_barchart.png)
 
-**The supporting python code can be viewed in the [4_top_bottom.ipynb](4_top_bottom.ipynb) file in our repo.**
+The supporting python code can be viewed in the [4_top_bottom.ipynb](4_top_bottom.ipynb) file in our repo.
 
 # Data Analysis on Python
 Now that we have grouped the Top 10 and Bottom 10 countries we are able to explore them using Linear Regression, Clustering, Forecasting as well as Static and Dynamic Data Visualization using python. Optionally, we also explored data visualization using Tableau Public. 
@@ -209,7 +209,7 @@ All of the forecasted points fall within the 95% confidence interval, indicating
 
 NOTE: Isreal was dropped because it was missing values for 2014, 2015 and 2016.
 
-**The supporting python code can be viewed in the [5_linear_regression.ipynb](5_linear_regression.ipynb) file in our repo.**
+The supporting python code can be viewed in the [5_linear_regression.ipynb](5_linear_regression.ipynb) file in our repo.
 
 ## Linear Regression (Dynamic Plots)
 
@@ -217,7 +217,7 @@ We also developed an interactive method to explore the linear regression for eac
 
 ![screenshot of dynamic plot for lineear regression](images/Regression_F.png)
 
-**To explore the dynamic features download the [7_dynamic_plots.ipynb](7_dynamic_plots.ipynb) file in our repo.**
+To explore the dynamic features download the [7_dynamic_plots.ipynb](7_dynamic_plots.ipynb) file in our repo.
 
 ## Clustering
 
@@ -225,8 +225,8 @@ The clustering analysis grouped the 20 selected countries (top 10 and bottom 10 
 
 | Cluster # | Category | Countries |
 |:---------:|:--------:|:----------|
-| 0 | Top 10 | LUX, CAN, CHE, GRC, JPN, IRL, DEU, FRA, BEL |
-| 1 | Bottom 10 | CZE, LTU, DNK, POL, NLD, MEX, EST, LVA, NOR, ISR
+| 0 | Top | LUX, CAN, CHE, GRC, JPN, IRL, DEU, FRA, BEL |
+| 1 | Bottom | CZE, LTU, DNK, POL, NLD, MEX, EST, LVA, NOR, ISR
 | 2 | Outlier | USA |
 
 * Cluster 0: Represents the top 10 spending countries (excluding the USA), confirming their high average pharmaceutical expenditure per capita.
@@ -254,7 +254,7 @@ This clustering analysis highlights important nuances in spending behavior among
 
 Future analyses could explore mid-level spenders and examine additional variables like population health outcomes to uncover further insights.
 
-**The supporting python code can be viewed in the [6_clustering.ipynb](6_clustering.ipynb) file in our repo.**
+The supporting python code can be viewed in the [6_clustering.ipynb](6_clustering.ipynb) file in our repo.
 
 ## Dynamic Plots
 
@@ -274,7 +274,7 @@ Here are a few reasons why dynamic plotting is beneficial:
 
 Dynamic plots turn static visuals into tools for exploration, making data analysis more interactive, flexible, and engaging.
 
-**To explore the dynamic features download the [7_dynamic_plots.ipynb](7_dynamic_plots.ipynb) file in our repo.**
+To explore the dynamic features download the [7_dynamic_plots.ipynb](7_dynamic_plots.ipynb) file in our repo.
 
 ## Forecasting
 
@@ -291,7 +291,7 @@ The method of forecasting in the provided code uses Facebook Prophet, a powerful
 
 NOTE: This is a dynamic plot and requires being opened.
 
-**The supporting python code can be viewed in the [7_dynamic_plots.ipynb](7_dynamic_plots.ipynb) file in our repo.**
+The supporting python code can be viewed in the [7_dynamic_plots.ipynb](7_dynamic_plots.ipynb) file in our repo.
 
 ## Data Visualization on Tableau
 
