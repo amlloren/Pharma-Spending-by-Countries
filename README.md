@@ -58,7 +58,7 @@ This project uses the following Python libraries
 
 ## Exploratory Data Analysis
 
-**To explore the dynamic features download the 1_EDA.ipynb file in our repo.**
+**To explore the dynamic features download the [1_EDA.ipynb](1_EDA.ipynb) file in our repo.**
 
 ## Understanding the Raw Data
 
