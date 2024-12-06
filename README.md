@@ -25,14 +25,13 @@ We sourced our raw dataset by downloading them from the links below:
 * [Requirements](#requirements)
 * [Exploratory Data Analysis](#exploratory-data-analysis)
 * [Understanding the Raw Data](#understanding-the-raw-data)
-* [Data Cleaning and Missing Values](#data-cleaning-and-missing-values)
+* [Data Cleaning and Handling Missing Values](#data-cleaning-and-handling-missing-values)
 * [Identifying Top 10 and Bottom 10 Spenders](#identifying-top-10-and-bottom-10-spenders)
 * [Data Analysis on Python](#data-analysis-on-python)
-    * [Linear Regression](#linear-regression)
+    * [Linear Regression](#data-analysis-on-python)
     * [Clustering](#clustering)
     * [Forecasting](#forecasting)
 * [Data Visualization on Tableau](#data-visualization-on-tableau)
-* [Business Case](#business-case)
 * [Conclusion](#conclusion)
 
 ### Requirements
@@ -294,7 +293,7 @@ NOTE: This is a dynamic plot and requires being opened.
 
 **The supporting python code can be viewed in the [7_dynamic_plots.ipynb](7_dynamic_plots.ipynb) file in our repo.**
 
-## Data Visualization on Tableau (Optional)
+## Data Visualization on Tableau
 
 * Global Health Spend ([Tableau Public Link](https://public.tableau.com/app/profile/anna.karlova/viz/Pharmaspendingbycountries1970-2015/Dashboard1))
 * Top 10 Countries Dashboard ([Tableau Public Link](https://public.tableau.com/app/profile/adrienne.lloren/viz/PharmaceuticalDrugSpendingbyCountries_17333346970600/TOP10))
