@@ -213,7 +213,7 @@ NOTE: Isreal was dropped because it was missing values for 2014, 2015 and 2016.
 
 **The supporting python code can be viewed in the [5_linear_regression.ipynb](5_linear_regression.ipynb) file in our repo.**
 
-### Dynamic Plots
+## Linear Regression (Dynamic Plots)
 
 We also developed an interactive method to explore the linear regression for each country which can be filtered by Location and Features. Below is a screenshot:
 
@@ -276,7 +276,7 @@ Here are a few reasons why dynamic plotting is beneficial:
 
 Dynamic plots turn static visuals into tools for exploration, making data analysis more interactive, flexible, and engaging.
 
-**The supporting python code can be viewed in the [7_dynamic_plots.ipynb](7_dynamic_plots.ipynb) file in our repo.**
+**To explore the dynamic features download the [7_dynamic_plots.ipynb](7_dynamic_plots.ipynb) file in our repo.**
 
 ## Forecasting
 
