@@ -13,6 +13,7 @@ Data Science Institute - Cohort 4 - Team 22 Project
 Our team has selected the Pharmaceutical Drug Spending by Countries dataset. Our goal is to identify the Top 10 and Bottom 10 spending countries (ranked by the average of Health Spending per Capita) to gain insights on these two country groupings. To start, we explored the general characteristics of the raw data and came up with a strategy to handle missing values. We implemented an aggregation to the year range 2005 and 2014 to clean the data from missing values and outliers. Next, we explored the dataset using Linear Regression, Clustering, Forecasting and Data Visualization using python. Optionally, we also explored data visualization using Tableau Public. 
 
 ![screenshot of Pharmaceutical Drug Spending dashboard](images/pharma_spending_dashboard.png)
+
 Screenshot of Pharmaceutical Drug Spending dashboard ([Tableau Public Link](https://public.tableau.com/app/profile/anna.karlova/viz/Pharmaspendingbycountries1970-2015/Dashboard1))
 
 We sourced our raw dataset by downloading them from the links below:
@@ -47,10 +48,15 @@ This project uses the following Python libraries
 * matplotlib : For creating graphs and plots.
 * seaborn : For enhancing the style of matplotlib plots.
 * sklearn : For linear regression analysis.
+* ydata_profiling : For EDA
+* pandas_visual_analysis : Visual Analysis
+* plotly : For dynamic plots
+* ipywidgets : For interactive plots
+* dash : For working with html
+* statsmodel.api : For processing statistic information
+
 
 ## Exploratory Data Analysis
-
-INSERT IMAGE OF ANNA'S EDA dynamic dashboard.
 
 **To explore the dynamic features download the 1_EDA.ipynb file in our repo.**
 
@@ -118,6 +124,8 @@ Based on this heatmap visualization and our aggregation considerations, our grou
 |:----:|:----:|:---:|:---:|:---|
 | 2005 | 2014 | 10 | 4 | New Zealand, Russia, Turkey, United Kingdom |
 
+NOTE: For some but not all analyses Israel was dropped and/or the data for 2015 was used.
+
 ### Correlation between Features
 
 To explore the relationships between different variables we created a heatmap to visualize the correlation between each feature where a correlation closer to 1.00 means more correlated.
@@ -128,7 +136,7 @@ The following table shows the correlations between features.
 
 | feature 1 | feature 2 | correlation |
 |:---------:|:---------:|:-----------:|
-| USD_CAP | TIME | 0.84 |
+| USD_CAP   | TIME      | 0.84        |
 | PC_HEALTHXP |  PC_GDP | 0.72 |
 | PC_GDP | USD_CAP | 0.67 |
 | PC_GDP | TIME | 0.61 |
@@ -178,23 +186,47 @@ This table ranks the countries by their average spending per capita in USD, star
 
 ![bar chart of the bottom 10 lowest spending countries based on the average spend per capita ](images/bottom_barchart.png)
 
+
 **The supporting python code can be viewed in the 4_top_bottom.ipynb file in our repo.**
 
 ## Data Analysis on Python
 
 ### Linear Regression
+* Add summarizing paragraph
+* Add Forecast 2016 using linear regression (First two blocks of code)
+* Add 2016 to 2018 segment
+* Add Top 10 Countries Forecast
+
 NOTE: Isreal was dropped because it was missing values for 2014, 2015 and 2016.
 
+We also developed an interactive method to explore the linear regression for each country which can be filtered by Location and Features. Below is a screenshot:
+
+![screenshot of dynamic plot for lineear regression](images/Regression_F.png)
 
 **The supporting python code can be viewed in the 5_linear_regression.ipynb file in our repo.**
 
 ### Clustering
+* Add summarizing paragraph
+
 
 **The supporting python code can be viewed in the 6_clustering.ipynb file in our repo.**
 
 ### Forecasting
+* Add summarizing paragraph
 
-* Use Ferial's Dynamic plotly
+The method of prediction in the provided code uses Facebook Prophet, a powerful open-source forecasting tool designed for time series data. It is particularly effective when your data exhibits patterns like seasonality, trends, or irregular intervals.
+
+#### Why Prophet for This Task?
+
+* Automatic Seasonality Detection: Prophet automatically identifies yearly or weekly cycles in the data, which is useful when you have data like spending trends.
+* Handles Missing Data: Prophet can deal with missing or irregular data, which is common in real-world datasets.
+* Confidence Intervals: It provides predictions with uncertainty bounds (e.g., upper and lower confidence intervals), helping to assess the reliability of forecasts.
+* Ease of Use: Minimal configuration is required, making it accessible for quick forecasting.
+
+![Forecast for DNK (USD_CAP)](images/Forecast_F.png)
+
+NOTE: This is a dynamic plot and requires being opened.
+
 
 **The supporting python code can be viewed in the 7_forecasting.ipynb file in our repo.**
 
