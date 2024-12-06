@@ -228,14 +228,14 @@ We also developed an interactive method to explore the linear regression for eac
 
 ![screenshot of dynamic plot for lineear regression](images/Regression_F.png)
 
-**The supporting python code can be viewed in the 5_linear_regression.ipynb file in our repo.**
+**The supporting python code can be viewed in the [5_linear_regression.ipynb](5_linear_regression.ipynb) file in our repo.**
 
 ### Clustering
 * Add summarizing paragraph
 * Add K-Means plot
 * Add Average Features by Cluster
 
-**The supporting python code can be viewed in the 6_clustering.ipynb file in our repo.**
+**The supporting python code can be viewed in the [6_clustering.ipynb](6_clustering.ipynb) file in our repo.**
 
 ### Dynamic Plots
 
@@ -255,6 +255,8 @@ Here are a few reasons why dynamic plotting is beneficial:
 
   Dynamic plots turn static visuals into tools for exploration, making data analysis more interactive, flexible, and engaging.
 
+**The supporting python code can be viewed in the [7_dynamic_plots.ipynb](7_dynamic_plots.ipynb) file in our repo.**
+
 ### Forecasting
 
 The method of forecasting in the provided code uses Facebook Prophet, a powerful open-source forecasting tool designed for time series data. It is particularly effective when your data exhibits patterns like seasonality, trends, or irregular intervals.
@@ -270,8 +272,7 @@ The method of forecasting in the provided code uses Facebook Prophet, a powerful
 
 NOTE: This is a dynamic plot and requires being opened.
 
-
-**The supporting python code can be viewed in the [7_forecasting.ipynb](7_forecasting.ipynb) file in our repo.**
+**The supporting python code can be viewed in the [7_dynamic_plots.ipynb](7_dynamic_plots.ipynb) file in our repo.**
 
 ## Data Visualization on Tableau (Optional)
 
