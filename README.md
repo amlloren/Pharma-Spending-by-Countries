@@ -23,16 +23,16 @@ We sourced our raw dataset by downloading them from the links below:
 ## Project Overview
 
 * [Requirements](#requirements)
-* [Exploratory Data Analysis](exploratory-data-analysis)
+* [Exploratory Data Analysis](#exploratory-data-analysis)
 * [Understanding the Raw Data](#understanding-the-raw-data)
 * [Data Cleaning and Missing Values](#data-cleaning-and-missing-values)
 * [Identifying Top 10 and Bottom 10 Spenders](#identifying-top-10-and-bottom-10-spenders)
-* [Data Analysis on Python](data-analysis-on-python)
+* [Data Analysis on Python](#data-analysis-on-python)
     * [Linear Regression](#linear-regression)
     * [Clustering](#clustering)
     * [Forecasting](#forecasting)
-* [Data Visualization on Tableau](data-visualization-on-tableau)
-* [Business Case](business-case)
+* [Data Visualization on Tableau](#data-visualization-on-tableau)
+* [Business Case](#business-case)
 * [Conclusion](#conclusion)
 
 ### Requirements
@@ -51,10 +51,9 @@ This project uses the following Python libraries
 * dash : For working with html
 * statsmodel.api : For processing statistic information
 
-
 ## Exploratory Data Analysis
 
-**To explore the dynamic features download the [1_EDA.ipynb](1_EDA.ipynb) file in our repo.**
+To explore the dynamic features download the [1_EDA.ipynb](1_EDA.ipynb) file in our repo.
 
 ## Understanding the Raw Data
 
