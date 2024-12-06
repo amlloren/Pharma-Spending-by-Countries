@@ -185,9 +185,9 @@ This table ranks the countries by their average spending per capita in USD, star
 **The supporting python code can be viewed in the [4_top_bottom.ipynb](4_top_bottom.ipynb) file in our repo.**
 
 # Data Analysis on Python
+Now that we have grouped the Top 10 and Bottom 10 countries we are able to explore them using Linear Regression, Clustering, Forecasting as well as Static and Dynamic Data Visualization using python. Optionally, we also explored data visualization using Tableau Public. 
 
-## Linear Regression
-### Multiple Linear Regression
+## Multiple Linear Regression
 
 We chose to regress TOTAL_SPEND on variables USD_CAP, PC_HEALTHXP, and PC_GDP , to explore how these factors influence total spending. To understand the relationship between total spending and these independent variables, which we hypothesize might have an impact on the total amount spent by each country. Due to missing values only 2004-2015 was used and RUS,ISR,TUR,NZL and GBR were dropped. 
 However, it's important we are using a timeseries data set and Linear Regression is not the best model for a timeseries analysis. This model is likely to suffer from autocorrelation, stationarity, and overfitting. Models such as ARMA or ARIMA would have been better suited, but we did not cover those in the course. If we had more time we could have explored other models. 
@@ -213,13 +213,13 @@ NOTE: Isreal was dropped because it was missing values for 2014, 2015 and 2016.
 
 **The supporting python code can be viewed in the [5_linear_regression.ipynb](5_linear_regression.ipynb) file in our repo.**
 
-#### Dynamic Plots
+### Dynamic Plots
 
 We also developed an interactive method to explore the linear regression for each country which can be filtered by Location and Features. Below is a screenshot:
 
 ![screenshot of dynamic plot for lineear regression](images/Regression_F.png)
 
-**The supporting python code can be viewed in the [7_dynamic_plots.ipynb](7_dynamic_plots.ipynb) file in our repo.**
+**To explore the dynamic features download the [7_dynamic_plots.ipynb](7_dynamic_plots.ipynb) file in our repo.**
 
 ## Clustering
 
