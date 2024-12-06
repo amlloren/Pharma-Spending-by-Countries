@@ -186,8 +186,9 @@ This table ranks the countries by their average spending per capita in USD, star
 
 ![bar chart of the bottom 10 lowest spending countries based on the average spend per capita ](images/bottom_barchart.png)
 
-
 **The supporting python code can be viewed in the 4_top_bottom.ipynb file in our repo.**
+
+
 
 ## Data Analysis on Python
 
@@ -207,11 +208,12 @@ We also developed an interactive method to explore the linear regression for eac
 
 ### Clustering
 * Add summarizing paragraph
-
+* Add K-Means plot
+* Add Average Features by Cluster
 
 **The supporting python code can be viewed in the 6_clustering.ipynb file in our repo.**
 
-### Forecasting
+### Dynamic Plots
 * Add summarizing paragraph
 
 The method of prediction in the provided code uses Facebook Prophet, a powerful open-source forecasting tool designed for time series data. It is particularly effective when your data exhibits patterns like seasonality, trends, or irregular intervals.
