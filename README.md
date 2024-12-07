@@ -321,7 +321,7 @@ The analysis revealed significant disparities between the top 10 and bottom 10 c
 * Anna Karlova
 * Danica Leung
 * [Ferial Vahmiyan](https://drive.google.com/file/d/1V78-48VG6IC-yds4NT3BeSyb4-w71ESh/view?usp=sharing)
-* Nusrat Khan
+* [Nusrat Khan](https://drive.google.com/file/d/1vRSjAi3iNiP3zzaryBhS83PO9nCz0Z0K/view?usp=drive_link)
 
 # PART 1:
 
