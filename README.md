@@ -304,7 +304,7 @@ The analysis revealed significant disparities between the top 10 and bottom 10 c
 * Adrienne Lloren
 * Anna Karlova
 * Danica Leung
-* Ferial Vahmiyan
+* Ferial Vahmiyan https://drive.google.com/file/d/1V78-48VG6IC-yds4NT3BeSyb4-w71ESh/view?usp=sharing
 * Nusrat Khan
 
 # PART 1:
