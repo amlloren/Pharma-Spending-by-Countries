@@ -52,6 +52,8 @@ This project uses the following Python libraries
 
 ## Exploratory Data Analysis
 
+The library ydata_profiling was used to quickly generate an overview of the dataset, revealing distributions, correlations, and potential issues like missing values. Pandas_visual_analysis was used to create interactive visualizations that highlight relationships and trends in the data. Both tools automate the generation of dynamic detailed reports and visualizations, saving time compared to manual exploration and coding.
+
 To explore the dynamic features download the [1_EDA.ipynb](1_EDA.ipynb) file in our repo.
 
 ## Understanding the Raw Data
@@ -293,9 +295,22 @@ NOTE: This is a dynamic plot and requires being opened. To explore the dynamic f
 
 ## Data Visualization on Tableau
 
-* Global Health Spend ([Tableau Public Link](https://public.tableau.com/app/profile/anna.karlova/viz/Pharmaspendingbycountries1970-2015/Dashboard1))
+* Pharmaceutical Spending Dashboard ([Tableau Public Link](https://public.tableau.com/app/profile/anna.karlova/viz/Pharmaspendingbycountries1970-2015/Dashboard1))
 * Top 10 Countries Dashboard ([Tableau Public Link](https://public.tableau.com/app/profile/adrienne.lloren/viz/PharmaceuticalDrugSpendingbyCountries_17333346970600/TOP10))
 * Bottom 10 Countries Dashboard ([Tableau Public Link](https://public.tableau.com/app/profile/adrienne.lloren/viz/PharmaceuticalDrugSpendingbyCountries_17333346970600/BOTTOM10))
+
+
+### Summary of Pharmaceutical Spending Analysis Using Tableau
+
+The interactive Tableau dashboard provides a comprehensive analysis of pharmaceutical spending trends across countries from 2005 to 2014, highlighting total expenditure, spending per capita, spending as a percentage of GDP, and health expenditure.
+Designed with practicality in mind, the Tableau dashboard is user-friendly and does not require programming expertise. It uses a map, bar charts, line graphs, and a bubble diagram to enable visual exploration. Users can filter data by country, year, and key parameters to interactively analyze historical and comparative trends in pharmaceutical spending. 
+The insights obtained using Tableau, including top 10 and bottom 10 spenders, are almost identical to the results derived from Python analysis, underscoring the reliability of both tools in interpreting the data. 
+
+Key findings reveal that the USA leads in total spending, per capita expenditure, and health budget allocation, driven by high drug prices and broad pharmaceutical access. Meanwhile, some countries face significant economic burdens due to high spending relative to GDP, whereas wealthier nations like Luxembourg demonstrate more efficient resource allocation. Additionally, developed nations exhibit consistent growth in pharmaceutical spending, while smaller economies often stagnate, reflecting disparities in economic and healthcare systems. 
+
+Tableau’s interactive and user-friendly platform makes it ideal for visualizing data and generating accessible insights for a broad audience. On the other hand, Python offers advanced analytical capabilities, such as deep statistical analysis, advanced data transformation, and predictive modeling. 
+
+
 
 ## Conclusion
 The analysis revealed significant disparities between the top 10 and bottom 10 countries in pharmaceutical spending per capita. Leveraging insights from correlations and trends, the study highlighted the importance of accurate and complete data for effective decision-making. While the project explored key patterns and developed robust visual and statistical models, time constraints limited the scope to a focused subset of the dataset. Future efforts could include deeper analysis into mid-tier countries, adoption of advanced forecasting models, and exploration of causative factors beyond expenditures, such as population health outcomes. This project underscores the potential of data science in driving informed policy decisions and optimizing healthcare expenditures worldwide.
