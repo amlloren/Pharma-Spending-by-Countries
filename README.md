@@ -33,6 +33,7 @@ We sourced our raw dataset by downloading them from the links below:
     * [Forecasting](#forecasting)
 * [Data Visualization on Tableau](#data-visualization-on-tableau)
 * [Conclusion](#conclusion)
+* [Team Videos](#team-videos--)
 
 ### Requirements
 
