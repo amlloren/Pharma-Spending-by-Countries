@@ -253,9 +253,16 @@ Average Features by Cluster: A bar plot comparing cluster-level averages reveals
 ![Plot of the average features by clusters](images/avg_clustering.png)
 
 Implications
-This clustering analysis highlights important nuances in spending behavior among countries. The USA’s outlier status suggests that factors beyond healthcare expenditure patterns, such as policy and market dynamics, drive its exceptionally high spending. In contrast, Cluster 0 and Cluster 1 differences indicate varied priorities, with some countries achieving higher efficiency by spending less while allocating a greater percentage to pharmaceuticals.
 
-Future analyses could explore mid-level spenders and examine additional variables like population health outcomes to uncover further insights.
+After clustering these 20 countries, they were categorized into 3 clusters. Cluster 0 confirms the top 10 spending countries ranked by average spend per capita. Cluster 1 confirms the bottom 10 spending countries ranked by average spend per capita. Cluster 3 contains only one country (USA), which according to average spend per capita is considered a top spending country. As shown on the cluster graph, USA is an outlier in terms of spending per capita and total spending therefore it's in a category of its own.
+
+Many of the high-spending countries have strong economies with high GDP per capita, which allows them to spend more on drugs. Even if their pharmaceutical spending is low as a percentage of healthcare expenditure (PC_HEALTHXP), their high GDP amplifies their total spending, reflecting the wealth of these countries. Despite having the ability to spend more, they allocate a larger proportion of their healthcare resources to other areas, such as preventative care, outpatient services, and advanced technologies. Additionally, many of these countries regulate drug prices by negotiating directly with pharmaceutical companies or promoting the use of generics, further reducing the share of healthcare expenditure dedicated to pharmaceuticals. These factors illustrate how these countries maintain efficient healthcare systems while keeping pharmaceutical costs relatively low as a proportion of health expenditure.
+
+For the low-spending countries, there’s a mix of those with low GDPs and those with higher GDP per capita. Countries with lower GDPs have less to spend and may underfund their healthcare systems, resulting in a reliance on pharmaceutical drugs to meet healthcare needs. This reliance leads to higher pharmaceutical spending as a percentage of healthcare expenditure (PC_HEALTHXP), even though their overall healthcare spending as a share of GDP (PC_GDP) remains low. On the other hand, countries with higher GDPs, such as the Nordic countries, have robust healthcare systems that emphasize preventative care and public health programs, reducing their reliance on drugs. Nevertheless, their wealth enables them to spend more on pharmaceuticals as a share of healthcare expenditure, reflecting their capacity to invest in diverse healthcare priorities.
+
+Finally for the USA, their outlier status is influenced by the privatization of their healthcare system.
+
+Future analyses could look at each country and investigate the economic and social factors that influence their spending patterns on pharmaceutical drugs. We could also explore mid-level spenders and examine additional variables like population health outcomes to uncover further insights.
 
 The supporting python code can be viewed in the [6_clustering.ipynb](6_clustering.ipynb) file in our repo.
 
