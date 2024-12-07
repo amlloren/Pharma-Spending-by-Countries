@@ -326,7 +326,7 @@ The analysis revealed significant disparities between the top 10 and bottom 10 c
 ## Team Videos
 * [Adrienne Lloren](https://drive.google.com/file/d/1ASvZEvJ-3i7NKkFGaMeeubGUNcCa5nAl/view?usp=drive_link)
 * Anna Karlova
-* Danica Leung
+* [Danica Leung](https://drive.google.com/file/d/1iQKKmOERW-UT3HE9qB1_DedN3aFSdrq7/view?usp=share_link)
 * [Ferial Vahmiyan](https://drive.google.com/file/d/1V78-48VG6IC-yds4NT3BeSyb4-w71ESh/view?usp=sharing)
 * [Nusrat Khan](https://drive.google.com/file/d/1vRSjAi3iNiP3zzaryBhS83PO9nCz0Z0K/view?usp=drive_link)
 
