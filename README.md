@@ -33,7 +33,7 @@ We sourced our raw dataset by downloading them from the links below:
     * [Forecasting](#forecasting)
 * [Data Visualization on Tableau](#data-visualization-on-tableau)
 * [Conclusion](#conclusion)
-* [Team Videos](#team-videos--)
+* [Team Videos](#team-videos)
 
 ### Requirements
 
@@ -301,7 +301,7 @@ NOTE: This is a dynamic plot and requires being opened. To explore the dynamic f
 ## Conclusion
 The analysis revealed significant disparities between the top 10 and bottom 10 countries in pharmaceutical spending per capita. Leveraging insights from correlations and trends, the study highlighted the importance of accurate and complete data for effective decision-making. While the project explored key patterns and developed robust visual and statistical models, time constraints limited the scope to a focused subset of the dataset. Future efforts could include deeper analysis into mid-tier countries, adoption of advanced forecasting models, and exploration of causative factors beyond expenditures, such as population health outcomes. This project underscores the potential of data science in driving informed policy decisions and optimizing healthcare expenditures worldwide.
 
-## Team Videos:
+## Team Videos
 * [Adrienne Lloren](https://drive.google.com/file/d/1ASvZEvJ-3i7NKkFGaMeeubGUNcCa5nAl/view?usp=drive_link)
 * Anna Karlova
 * Danica Leung
