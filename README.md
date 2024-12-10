@@ -1,6 +1,8 @@
 # Pharmaceutical Drug Spending by Countries
 Data Science Institute - Cohort 4 - Team 22 Project
 
+As part of the Data Science Certificate program at the University of Toronto’s Data Sciences Institute, our capstone project was both a challenge and an opportunity to grow. We chose the "Pharmaceutical Drug Spending by Countries" dataset and we approached this project as both a learning exercise and an opportunity to apply our analytical and technical skills. From summarizing data and handling missing values to creating visualizations and narrowing a broad business case into actionable insights, this project demonstrates our accomplishments throughout the certification program and highlights our potential to contribute to the data science field.
+
 ## Members
 * Adrienne Lloren ([amlloren](https://github.com/amlloren))
 * Anna Karlova ([anna-karl](https://github.com/Anna-Karl))
