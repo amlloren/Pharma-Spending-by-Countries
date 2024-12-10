@@ -254,7 +254,7 @@ Average Features by Cluster: A bar plot comparing cluster-level averages reveals
 
 ![Plot of the average features by clusters](images/avg_clustering.png)
 
-Implications
+### Implications
 
 After clustering these 20 countries, they were categorized into 3 clusters. Cluster 0 confirms the top 10 spending countries ranked by average spend per capita. Cluster 1 confirms the bottom 10 spending countries ranked by average spend per capita. Cluster 3 contains only one country (USA), which according to average spend per capita is considered a top spending country. As shown on the cluster graph, USA is an outlier in terms of spending per capita and total spending therefore it's in a category of its own.
 
